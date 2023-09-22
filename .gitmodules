@@ -1,0 +1,3 @@
+[submodule "multinode"]
+	path = multinode
+	url = git@github.com:madson7/multinode.git
