@@ -40,7 +40,7 @@ inventory_content="[masters]"$'\n'"${masters}"$'\n'"[workers]"$'\n'"${workers}"
 
 cd ..
 
-cat << EOF > inventory/inventory.ini
+cat << EOF > inventory.ini
 [all:vars]
 ansible_user=vagrant
 ansible_ssh_common_args="-o StrictHostKeyChecking=no"
